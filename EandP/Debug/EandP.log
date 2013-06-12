@@ -1,0 +1,47 @@
+﻿Build started 4/17/2013 11:08:17 PM.
+     1>Project "D:\OpenCVProjects\EandP\EandP\EandP.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\EandP.lastbuildstate".
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets(74,5): warning : Access to the path '\\.\CTXSBX' is denied.
+       InitializeBuildStatus:
+         Creating "Debug\EandP.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\OpenCV-2.4.4\opencv\build\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt detectObject.cpp ImageUtils_0.7.cpp NFE.cpp preprocessFace.cpp
+         preprocessFace.cpp
+     1>d:\opencv-2.4.4\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         NFE.cpp
+     1>d:\opencvprojects\eandp\eandp\nfe.cpp(62): warning C4101: 'e' : unreferenced local variable
+     1>d:\opencvprojects\eandp\eandp\nfe.cpp(73): warning C4101: 'e' : unreferenced local variable
+     1>d:\opencvprojects\eandp\eandp\nfe.cpp(84): warning C4101: 'e' : unreferenced local variable
+     1>d:\opencvprojects\eandp\eandp\nfe.cpp(101): warning C4101: 'e' : unreferenced local variable
+         ImageUtils_0.7.cpp
+         detectObject.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\EandP.exe.embed.manifest.res" Debug\EandP_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\OpenCVProjects\EandP\Debug\EandP.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\OpenCV-2.4.4\opencv\build\x86\vc10\lib" opencv_core244d.lib opencv_imgproc244d.lib opencv_highgui244d.lib opencv_ml244d.lib opencv_video244d.lib opencv_features2d244d.lib opencv_calib3d244d.lib opencv_objdetect244d.lib opencv_contrib244d.lib opencv_legacy244d.lib opencv_flann244d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\EandP.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\OpenCVProjects\EandP\Debug\EandP.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\OpenCVProjects\EandP\Debug\EandP.lib" /MACHINE:X86 Debug\EandP.exe.embed.manifest.res
+         Debug\detectObject.obj
+         Debug\ImageUtils_0.7.obj
+         Debug\NFE.obj
+         Debug\preprocessFace.obj
+       Manifest:
+         Deleting file "Debug\EandP.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\EandP.exe.embed.manifest" /manifest Debug\EandP.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\EandP.exe.embed.manifest.res" Debug\EandP_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\OpenCVProjects\EandP\Debug\EandP.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\OpenCV-2.4.4\opencv\build\x86\vc10\lib" opencv_core244d.lib opencv_imgproc244d.lib opencv_highgui244d.lib opencv_ml244d.lib opencv_video244d.lib opencv_features2d244d.lib opencv_calib3d244d.lib opencv_objdetect244d.lib opencv_contrib244d.lib opencv_legacy244d.lib opencv_flann244d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\EandP.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\OpenCVProjects\EandP\Debug\EandP.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\OpenCVProjects\EandP\Debug\EandP.lib" /MACHINE:X86 Debug\EandP.exe.embed.manifest.res
+         Debug\detectObject.obj
+         Debug\ImageUtils_0.7.obj
+         Debug\NFE.obj
+         Debug\preprocessFace.obj
+         EandP.vcxproj -> D:\OpenCVProjects\EandP\Debug\EandP.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\EandP.unsuccessfulbuild".
+         Touching "Debug\EandP.lastbuildstate".
+     1>Done Building Project "D:\OpenCVProjects\EandP\EandP\EandP.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.34

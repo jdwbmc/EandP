@@ -1,0 +1,40 @@
+﻿Build started 4/15/2013 10:49:41 PM.
+     1>Project "D:\OpenCVProjects\EandP\EandP\EandP.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\OpenCVProjects\EandP\Release\".
+       InitializeBuildStatus:
+         Creating "Release\EandP.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\OpenCV-2.4.4\opencv\build\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt detectObject.cpp ImageUtils_0.7.cpp NFE.cpp preprocessFace.cpp
+         detectObject.cpp
+         ImageUtils_0.7.cpp
+         NFE.cpp
+     1>NFE.cpp(63): warning C4101: 'e' : unreferenced local variable
+     1>NFE.cpp(74): warning C4101: 'e' : unreferenced local variable
+     1>NFE.cpp(85): warning C4101: 'e' : unreferenced local variable
+     1>NFE.cpp(102): warning C4101: 'e' : unreferenced local variable
+     1>NFE.cpp(194): warning C4018: '<' : signed/unsigned mismatch
+     1>NFE.cpp(207): warning C4018: '<' : signed/unsigned mismatch
+     1>NFE.cpp(217): warning C4018: '<' : signed/unsigned mismatch
+     1>NFE.cpp(228): warning C4018: '<' : signed/unsigned mismatch
+         preprocessFace.cpp
+     1>d:\opencv-2.4.4\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\OpenCVProjects\EandP\Release\EandP.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\OpenCV-2.4.4\opencv\build\x86\vc10\lib" opencv_core244.lib opencv_imgproc244.lib opencv_highgui244.lib opencv_ml244.lib opencv_video244.lib opencv_features2d244.lib opencv_calib3d244.lib opencv_objdetect244.lib opencv_contrib244.lib opencv_legacy244.lib opencv_flann244.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\EandP.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\OpenCVProjects\EandP\Release\EandP.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\OpenCVProjects\EandP\Release\EandP.lib" /MACHINE:X86 Release\detectObject.obj
+         Release\ImageUtils_0.7.obj
+         Release\NFE.obj
+         Release\preprocessFace.obj
+         Generating code
+         Finished generating code
+         EandP.vcxproj -> D:\OpenCVProjects\EandP\Release\EandP.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\OpenCVProjects\EandP\Release\EandP.exe;#1" /manifest Release\EandP.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\EandP.unsuccessfulbuild".
+         Touching "Release\EandP.lastbuildstate".
+     1>Done Building Project "D:\OpenCVProjects\EandP\EandP\EandP.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.11
